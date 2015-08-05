@@ -1,5 +1,7 @@
 /**
- * Basic encryption program to break (given to us)
+ * Basic encryption program to break (given to us beforehand)
+ * 
+ * Just a toy algorithm, not actually used
  *
  * To compile me, run "gcc encrypt.c -Wall -lcrypto -o encrypt"
  */
