@@ -1,5 +1,8 @@
 /**
  * Decrypts results of encalg.c
+ * 
+ * Just a toy example, all data is fake
+ * 
  * To compile, run "gcc decrypt.c -Wall -lcrypto -o decrypt"
  */
 
