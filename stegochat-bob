@@ -71,8 +71,7 @@ int main(int argc, char *argv[])
 
 	/* initialize the message for recvmsg */
 	struct sockaddr_in alice; // Struct for Alice's contact info
-	//alice.sin_addr.s_addr = inet_addr("127.0.0.1");
-	//alice.sin_addr.s_addr = inet_addr("209.148.46.85");
+	alice.sin_addr.s_addr = inet_addr("127.0.0.1");
 
 	memset(&msg, '\0', sizeof(msg));
 	msg.msg_iov = iov;
