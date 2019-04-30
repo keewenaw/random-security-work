@@ -1,7 +1,7 @@
 # random-security-work
 This repo is a catch-all for any random one-off security tools, tricks, and errata I've created.
 
-<b>cryptobreak</b> - Project: given encalg, IV, and the ciphertext, we needed to write decalg to break it.
+<b>cryptobreak</b> - old grad school project. Given encalg, IV, and the ciphertext, we needed to write decalg to break it.
 
 <b>dnsspoof.py</b> - a simple DNS spoofer.
 
